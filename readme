@@ -1,0 +1,87 @@
+# 🧪 Projeto de Testes Automatizados com Cucumber + Playwright + TypeScript
+
+Este projeto implementa testes de ponta a ponta usando **Cucumber (BDD)** com **Playwright** e **TypeScript**. Ideal para validar fluxos completos de aplicações web, com suporte a execução **headless**, **modo visual** e **debug**.
+
+---
+
+## 📁 Estrutura de Pastas
+
+```
+src/
+├── features/         # Arquivos .feature escritos em Gherkin
+├── pages/            # Page Objects encapsulando a lógica de interação com a UI
+├── steps/            # Step definitions (passos dos testes)
+├── support/          # Hooks, configuração de ambiente e custom world
+```
+
+---
+
+## 🧩 Tecnologias Utilizadas
+
+- **Cucumber.js** – Testes BDD (Behavior-Driven Development)
+- **Playwright** – Automação do navegador (Chromium, Firefox, WebKit)
+- **TypeScript** – Tipagem estática e desenvolvimento robusto
+- **ts-node** – Execução direta de arquivos `.ts`
+- **dotenv** – Carregamento de variáveis de ambiente
+- **cucumber-html-reporter** – Geração de relatórios HTML
+- **cross-env** – Compatibilidade de variáveis de ambiente entre sistemas operacionais
+
+---
+
+## ✅ Pré-requisitos
+
+- Node.js 18+  
+- npm  
+- Git 
+
+---
+
+## ⚙️ Instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone https://seu-repositorio.git
+   ```
+
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+3. Crie um arquivo `.env` baseado no arquivo ***.env_example*** na raiz :
+   ```dotenv
+   BASE_URL=https://exemplo.com
+   USUARIO=seu_usuario
+   SENHA=sua_senha
+   ```
+
+---
+
+## 🚀 Como Rodar os Testes
+
+### ▶️ Modo Headless (sem interface)
+```bash
+npm run test
+```
+
+### 🧭 Modo Visual (útil para desenvolvimento/debug)
+```bash
+npm run test:headed
+```
+
+
+
+
+## 📊 Relatório de Testes
+
+Após a execução dos testes (`test` ou `test:headed`), um relatório HTML será gerado em:
+
+```
+reports/cucumber-report.html
+```
+
+Se o relatório não for gerado automáticamente, pode-se gerar ele de forma manual após a execução do teste:
+
+```bash
+node generate-report.js
+```
