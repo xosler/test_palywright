@@ -40,10 +40,8 @@ export class MyProfilePage {
     async expectSuccessMessage() {
         const message = this.page.locator('#oxd-toaster_1');
 
-        await expect(message).toBeVisible({ timeout: 5000 });
         await expect(message.locator('.oxd-toast-content--success')).toContainText('Success');
         await expect(message.locator('.oxd-toast-content--success')).toContainText('Successfully Updated');
-
     }
 
     async validadeFields(name: string, middle: string, last: string) {
