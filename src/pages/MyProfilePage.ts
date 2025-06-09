@@ -21,7 +21,6 @@ export class MyProfilePage {
     }
 
     async fillName(name: string) {
-        await this.inputName.waitFor({ state: 'visible' });
         await this.inputName.fill(name);
     }
 
