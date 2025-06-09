@@ -24,3 +24,20 @@ jobs:
 
       - name: Run tests
         run: npm run test
+      
+      - name: Upload Cucumber Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: cucumber-report
+          path: reports/cucumber-report.json
+
+      - name: Generate HTML Report
+        run: node generate-report.js
+      
+      - name: Upload HTML Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: cucumber-html-report
+          path: reports/cucumber-report.html
+
+
