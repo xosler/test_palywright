@@ -1,0 +1,635 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "checkout;add-multiple-items-to-the-cart-and-verify-the-total-amount",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Add multiple items to the cart and verify the total amount",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 520205100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is logged into the marketplace app",
+            "match": {
+              "location": "src\\steps\\checkout.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 678415399
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Product"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sauce Labs Backpack"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sauce Labs Fleece Jacket"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sauce Labs Onesie"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the following items have been added to the cart:",
+            "match": {
+              "location": "src\\steps\\checkout.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 193454099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user accesses the shopping cart",
+            "match": {
+              "location": "src\\steps\\checkout.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48064400
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Product"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sauce Labs Backpack"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sauce Labs Fleece Jacket"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sauce Labs Onesie"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the system should display the following products in the cart:",
+            "match": {
+              "location": "src\\steps\\checkout.steps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22563500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 289199400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "checkout;validade-the-total-amount-in-the-checkout",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Validade the total amount in the checkout",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 464311700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "the user is logged into the marketplace app",
+            "match": {
+              "location": "src\\steps\\checkout.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 672269900
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Product"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sauce Labs Backpack"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sauce Labs Fleece Jacket"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sauce Labs Onesie"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the following items have been added to the cart:",
+            "match": {
+              "location": "src\\steps\\checkout.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 164587499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the user accesses the shopping cart",
+            "match": {
+              "location": "src\\steps\\checkout.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48854700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "the user click on checkout",
+            "match": {
+              "location": "src\\steps\\checkout.steps.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48700600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the user fill their personal information with \"Alexandre\", \"Schossler\", \"85890-000\"",
+            "match": {
+              "location": "src\\steps\\checkout.steps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45603100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "the user click on contiunue",
+            "match": {
+              "location": "src\\steps\\checkout.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51388500
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Product"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sauce Labs Backpack"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sauce Labs Fleece Jacket"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sauce Labs Onesie"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "the system should display the following products in the cart:",
+            "match": {
+              "location": "src\\steps\\checkout.steps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14775200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "the total price of the shop should be \"95.01\"",
+            "match": {
+              "location": "src\\steps\\checkout.steps.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4458200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 275819599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "checkout;finish-the-checkout-with-success",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "Finish the checkout with success",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 555096899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 38,
+            "name": "the user is logged into the marketplace app",
+            "match": {
+              "location": "src\\steps\\checkout.steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 651550700
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Product"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sauce Labs Backpack"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sauce Labs Fleece Jacket"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sauce Labs Onesie"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 39,
+            "name": "the following items have been added to the cart:",
+            "match": {
+              "location": "src\\steps\\checkout.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 154133899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "the user accesses the shopping cart",
+            "match": {
+              "location": "src\\steps\\checkout.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49373300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "the user click on checkout",
+            "match": {
+              "location": "src\\steps\\checkout.steps.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46289700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "the user fill their personal information with \"Alexandre\", \"Schossler\", \"85890-000\"",
+            "match": {
+              "location": "src\\steps\\checkout.steps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46763800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "the user click on contiunue",
+            "match": {
+              "location": "src\\steps\\checkout.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52995899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "the user click on finish in the checkout page",
+            "match": {
+              "location": "src\\steps\\checkout.steps.ts:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33001099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "the system should finish the checkout",
+            "match": {
+              "location": "src\\steps\\checkout.steps.ts:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11660400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "present the sucess message",
+            "match": {
+              "location": "src\\steps\\checkout.steps.ts:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4610099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "present the button to back to home",
+            "match": {
+              "location": "src\\steps\\checkout.steps.ts:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8819599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 560208500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "checkout",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Checkout",
+    "tags": [],
+    "uri": "src\\features\\checkout.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "my-profile;change-infos-in-my-profile",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Change infos in my profile",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 481171899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is logged into the app",
+            "match": {
+              "location": "src\\steps\\myProfile.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8109392100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user navigates to the \"My Profile\" page",
+            "match": {
+              "location": "src\\steps\\myProfile.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24455461599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the user updates the name to \"Alexandre\"",
+            "match": {
+              "location": "src\\steps\\myProfile.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2407161200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user updates the middle name to \"Von\"",
+            "match": {
+              "location": "src\\steps\\myProfile.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15791700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user updates the last name to \"Schossler\"",
+            "match": {
+              "location": "src\\steps\\myProfile.steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16738700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user clicks the \"Save\" button",
+            "match": {
+              "location": "src\\steps\\myProfile.steps.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1434940699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the system should display a success message",
+            "match": {
+              "location": "src\\steps\\myProfile.steps.ts:41"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5414163400,
+              "error_message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveValue\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('input[name=\"firstName\"]')\nExpected string: \u001b[32m\"Alexandre\"\u001b[39m\nReceived string: \u001b[31m\"000000000000000000000000\"\u001b[39m\nCall log:\n\u001b[2m  - locator._expect with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('input[name=\"firstName\"]')\u001b[22m\n\u001b[2m    9 × locator resolved to <input name=\"firstName\" data-v-1f99f73c=\"\" placeholder=\"First Name\" class=\"oxd-input oxd-input--active orangehrm-firstname\"/>\u001b[22m\n\u001b[2m      - unexpected value \"000000000000000000000000\"\u001b[22m\n\n    at Proxy.<anonymous> (E:\\projetos\\outsera_\\node_modules\\playwright\\lib\\matchers\\expect.js:221:24)\n    at MyProfilePage.validadeFields (E:\\projetos\\outsera_\\src\\pages\\MyProfilePage.ts:50:38)\n    at CustomWorld.<anonymous> (E:\\projetos\\outsera_\\src\\steps\\myProfile.steps.ts:43:30)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 280900699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "my-profile",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "My profile",
+    "tags": [],
+    "uri": "src\\features\\myProfile.feature"
+  }
+]
